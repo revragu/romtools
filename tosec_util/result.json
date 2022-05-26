@@ -1,0 +1,454 @@
+{
+    "sha1": [
+        {
+            "filename": "GFX9000 Tool Disk (1996)(Fony)(NL).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/GFX9000 Tool Disk (1996)(Fony)(NL).dsk",
+            "sha1": "4c8ca5101426eb080ec41464928c6973f6415ace",
+            "size": 737280
+        },
+        {
+            "filename": "MSX View (19xx)(-)[b].dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/MSX View (19xx)(-)[b].dsk",
+            "sha1": "bc5333ee88cf26419c64074e45ab7b64c8866c22",
+            "size": 737280
+        },
+        {
+            "filename": "MSX Windows 2000 (2000)(CyberSoft)[f Valerio][mouse].dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/MSX Windows 2000 (2000)(CyberSoft)[f Valerio][mouse].dsk",
+            "sha1": "9de6b5c6c73bf418c798bb5ee9be56ebdda54b73",
+            "size": 737280
+        },
+        {
+            "filename": "MSX Windows 2000 Installer (2000)(CyberSoft)[f Valerio][mouse].dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/MSX Windows 2000 Installer (2000)(CyberSoft)[f Valerio][mouse].dsk",
+            "sha1": "5763786c369cd6f77682f6dd616d883fc319d88f",
+            "size": 737280
+        },
+        {
+            "filename": "MSX Windows 98 v1.1e (1989)(CyberSoft)[f Valerio][mouse][needs MSX-DOS 2].dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/MSX Windows 98 v1.1e (1989)(CyberSoft)[f Valerio][mouse][needs MSX-DOS 2].dsk",
+            "sha1": "957c3c0189a1074aca18ae12e8283e0f109dd655",
+            "size": 737280
+        },
+        {
+            "filename": "MSX Windows 98 v1.1e Installer (1989)(CyberSoft)[mouse][needs MSX-DOS 2].dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/MSX Windows 98 v1.1e Installer (1989)(CyberSoft)[mouse][needs MSX-DOS 2].dsk",
+            "sha1": "d890c64cc33476bd2730183c83fab43701e88652",
+            "size": 368640
+        },
+        {
+            "filename": "MSX-DOS Help v2.20 (1994)(Miri Software)(IT).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/MSX-DOS Help v2.20 (1994)(Miri Software)(IT).dsk",
+            "sha1": "5a7822d0969f30b711dd0a3dfeb416e2d70d0817",
+            "size": 737280
+        },
+        {
+            "filename": "Myu Note (1992)(Bit2)(JP)(Disk 1 of 2).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/Myu Note (1992)(Bit2)(JP)(Disk 1 of 2).dsk",
+            "sha1": "420fdd3980c4f18f46055ec457cf236348625a18",
+            "size": 737280
+        },
+        {
+            "filename": "Myu Note (1992)(Bit2)(JP)(Disk 2 of 2).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/Myu Note (1992)(Bit2)(JP)(Disk 2 of 2).dsk",
+            "sha1": "cf41b87c1390684fc31c2d6634756592d616073b",
+            "size": 737280
+        },
+        {
+            "filename": "Myu Sios (1991)(Bit2)(JP)(Disk 1 of 3).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/Myu Sios (1991)(Bit2)(JP)(Disk 1 of 3).dsk",
+            "sha1": "f80b22f2f1f8263cceb782738558767286dd89a1",
+            "size": 737280
+        },
+        {
+            "filename": "Myu Sios (1991)(Bit2)(JP)(Disk 2 of 3).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/Myu Sios (1991)(Bit2)(JP)(Disk 2 of 3).dsk",
+            "sha1": "b7107c665a502c815e0d55e4165a17bd98420385",
+            "size": 737280
+        },
+        {
+            "filename": "Myu Sios (1991)(Bit2)(JP)(Disk 3 of 3).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/Myu Sios (1991)(Bit2)(JP)(Disk 3 of 3).dsk",
+            "sha1": "2e1b83373aadd455f093907b0700623b462cbe68",
+            "size": 737280
+        },
+        {
+            "filename": "PCM Player, The (19xx)(-)[b].dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/PCM Player, The (19xx)(-)[b].dsk",
+            "sha1": "65c9c181fe8c78c3dec77ad4166fd70b3f448268",
+            "size": 737280
+        },
+        {
+            "filename": "Turbo Booster (1990)(Team Toy Boys)(JP)[b].dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/Turbo Booster (1990)(Team Toy Boys)(JP)[b].dsk",
+            "sha1": "78763684ef466ef84773f9f3c3102deaf2cc61cb",
+            "size": 737280
+        },
+        {
+            "filename": "XSC Compression Program (1995)(XelaSoft)(NL)[needs MSX-DOS 2].dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Applications (TOSEC-v2012-04-15_CM)/XSC Compression Program (1995)(XelaSoft)(NL)[needs MSX-DOS 2].dsk",
+            "sha1": "09970aa6ee691f3f0b33cdd54d9a4e341fa6fbca",
+            "size": 737280
+        },
+        {
+            "filename": "Swiss Demo, The (1992)(MJ-CHJ & AT Productions)[b].dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Demos (TOSEC-v2012-04-15_CM)/Swiss Demo, The (1992)(MJ-CHJ & AT Productions)[b].dsk",
+            "sha1": "1235ccc142d7fcfefacb489cf375ac1001b7aacd",
+            "size": 737280
+        },
+        {
+            "filename": "Zone Terra (demo) (1994)(Quadrivium)(NL).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Demos (TOSEC-v2012-04-15_CM)/Zone Terra (demo) (1994)(Quadrivium)(NL).dsk",
+            "sha1": "a36dec1e71df540c4e87ee7f38660900f3a05efd",
+            "size": 737280
+        },
+        {
+            "filename": "Frage II, Die (199x)(Studio Sequence)(JP)[b].dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Educational (TOSEC-v2012-04-15_CM)/Frage II, Die (199x)(Studio Sequence)(JP)[b].dsk",
+            "sha1": "3da39ec846c109fbd74476efa3f9a349a85081b0",
+            "size": 737280
+        },
+        {
+            "filename": "FM BIOS ROM Extension v1.3 1988-04-26 for Turbo-R GT (1988)(-)[FMBIOS.ROM].rom",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Firmware (TOSEC-v2012-04-15_CM)/FM BIOS ROM Extension v1.3 1988-04-26 for Turbo-R GT (1988)(-)[FMBIOS.ROM].rom",
+            "sha1": "6aea1aef5ec31c1826c22edf580525f93baad425",
+            "size": 16384
+        },
+        {
+            "filename": "FM BIOS ROM Extension v1.3 1988-04-26 for Turbo-R ST (1988)(-)[FMBIOS.ROM].rom",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Firmware (TOSEC-v2012-04-15_CM)/FM BIOS ROM Extension v1.3 1988-04-26 for Turbo-R ST (1988)(-)[FMBIOS.ROM].rom",
+            "sha1": "e002a9b426732e6c2d31e548c40cf7c122348ce3",
+            "size": 16384
+        },
+        {
+            "filename": "Kanji Driver for TurboR (19xx)(-)[TRKANJI.ROM].rom",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Firmware (TOSEC-v2012-04-15_CM)/Kanji Driver for TurboR (19xx)(-)[TRKANJI.ROM].rom",
+            "sha1": "5b39c1ccd3a213b78e02927f56a9abc72cd8c28d",
+            "size": 32768
+        },
+        {
+            "filename": "MSX System v4.0 + MSX BASIC (1990)(Microsoft)(US)(TURBO-R ST)[MSXTR.ROM].rom",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Firmware (TOSEC-v2012-04-15_CM)/MSX System v4.0 + MSX BASIC (1990)(Microsoft)(US)(TURBO-R ST)[MSXTR.ROM].rom",
+            "sha1": "f078b5ec56884bfb81481d45c7151418770bff5a",
+            "size": 32768
+        },
+        {
+            "filename": "MSX System v4.1 + MSX BASIC (1990)(Microsoft)(TURBO-R GT)(US)[MSXTR.ROM].rom",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Firmware (TOSEC-v2012-04-15_CM)/MSX System v4.1 + MSX BASIC (1990)(Microsoft)(TURBO-R GT)(US)[MSXTR.ROM].rom",
+            "sha1": "242e73d8284a012b275c0a266844ebbc4269d787",
+            "size": 32768
+        },
+        {
+            "filename": "MSX-DOS Kernel v2.30 + Disk BASIC v2.01 (1990)(ASCII)(JP)[MSXDOS23.ROM].rom",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Firmware (TOSEC-v2012-04-15_CM)/MSX-DOS Kernel v2.30 + Disk BASIC v2.01 (1990)(ASCII)(JP)[MSXDOS23.ROM].rom",
+            "sha1": "ded7907ed2894200806319a9cf7b13c7cf0d88d9",
+            "size": 65536
+        },
+        {
+            "filename": "MSX-DOS Kernel v2.31 + Disk BASIC v2.01 (1991)(ASCII)(JP)[MSXDOS23.ROM].rom",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Firmware (TOSEC-v2012-04-15_CM)/MSX-DOS Kernel v2.31 + Disk BASIC v2.01 (1991)(ASCII)(JP)[MSXDOS23.ROM].rom",
+            "sha1": "4880bf34f1c86fff5456ec2b4cf70d02339e2caa",
+            "size": 65536
+        },
+        {
+            "filename": "MSX-DOS v2.2 (1984)(Microsoft)(US)(Disk 8 of 8)[7].rom",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Firmware (TOSEC-v2012-04-15_CM)/MSX-DOS v2.2 (1984)(Microsoft)(US)(Disk 8 of 8)[7].rom",
+            "sha1": "6e89f19179ccfeb824bb12a6f512b9d07d0b8534",
+            "size": 16384
+        },
+        {
+            "filename": "MSXTR GT System Extension (19xx)(-)[MSXTREXT.ROM].rom",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Firmware (TOSEC-v2012-04-15_CM)/MSXTR GT System Extension (19xx)(-)[MSXTREXT.ROM].rom",
+            "sha1": "018d7a5222f28514908fb1b1513286a6558a6d05",
+            "size": 16384
+        },
+        {
+            "filename": "MSXTR ST System Extension (19xx)(-)[MSXTREXT.ROM].rom",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Firmware (TOSEC-v2012-04-15_CM)/MSXTR ST System Extension (19xx)(-)[MSXTREXT.ROM].rom",
+            "sha1": "373412f9c32762de1c3a7e27fc3d80614e0a0c8e",
+            "size": 16384
+        },
+        {
+            "filename": "Turbo R GT Full ROM-Image 2 MB (19xx)(-)[GT2MB.ROM].rom",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Firmware (TOSEC-v2012-04-15_CM)/Turbo R GT Full ROM-Image 2 MB (19xx)(-)[GT2MB.ROM].rom",
+            "sha1": "6306ca2bc9fdd3becf13e51a921ea6d393f571ae",
+            "size": 2097152
+        },
+        {
+            "filename": "2021 Snooky (1991)(Studio Hawk)(JP).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/2021 Snooky (1991)(Studio Hawk)(JP).dsk",
+            "sha1": "96d493fabe69aa8322e68e0b0c5344c464325cf9",
+            "size": 737280
+        },
+        {
+            "filename": "Blade (1997)(GW's Workshop)[b].dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Blade (1997)(GW's Workshop)[b].dsk",
+            "sha1": "8c0b7b32ec22840ce1dabd38863e1876232d3b9d",
+            "size": 737280
+        },
+        {
+            "filename": "Earth (1996)(GW's Workshop).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Earth (1996)(GW's Workshop).dsk",
+            "sha1": "eabdccc0f7c0a640013a4618d9c20aa458e1e0c5",
+            "size": 737280
+        },
+        {
+            "filename": "Earth Attack (19xx)(GW's Workshop)[b].dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Earth Attack (19xx)(GW's Workshop)[b].dsk",
+            "sha1": "3ad636e6726be67f395b80d170566065c5d80868",
+            "size": 737280
+        },
+        {
+            "filename": "F-Nano 2 - 3D Car Action (demo) (1994)(XRay)(JP).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/F-Nano 2 - 3D Car Action (demo) (1994)(XRay)(JP).dsk",
+            "sha1": "2ffd8e05317a1f5f296635da654b51739d392b6a",
+            "size": 737280
+        },
+        {
+            "filename": "Fishing v1.0 (1996-02-26)(GW's Workshop).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Fishing v1.0 (1996-02-26)(GW's Workshop).dsk",
+            "sha1": "b532cc47c08ea406efe3e551e0db2023f4d11154",
+            "size": 737280
+        },
+        {
+            "filename": "Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 1 of 5)(Opening Disk 0).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 1 of 5)(Opening Disk 0).dsk",
+            "sha1": "fd3c5f8793bfbec1851c89cfc32366618c6f482d",
+            "size": 737280
+        },
+        {
+            "filename": "Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 2 of 5)(Opening Disk 1).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 2 of 5)(Opening Disk 1).dsk",
+            "sha1": "0b145459326c62254522bf77f063b069d086aa29",
+            "size": 737280
+        },
+        {
+            "filename": "Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 3 of 5)(Opening Disk 2).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 3 of 5)(Opening Disk 2).dsk",
+            "sha1": "80701f4a86a151778c4fc81f56e9088d7b880651",
+            "size": 737280
+        },
+        {
+            "filename": "Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 4 of 5)(Game Disk 0).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 4 of 5)(Game Disk 0).dsk",
+            "sha1": "0bddc86900b934cb381ce3aac8d9f8614ca49ede",
+            "size": 737280
+        },
+        {
+            "filename": "Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 5 of 5)(Game Disk 1).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Fray - In Magical Adventure (1990)(Micro Cabin)(JP)(Disk 5 of 5)(Game Disk 1).dsk",
+            "sha1": "c1c35bedb620181846a407d6900db741f751e50f",
+            "size": 737280
+        },
+        {
+            "filename": "Gun Shot vs Festa Again (2001)(Rabbit Soft Worker's)(JP).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Gun Shot vs Festa Again (2001)(Rabbit Soft Worker's)(JP).dsk",
+            "sha1": "56ac03a3fc5dcdb2cf07f1110284d87f7be061cb",
+            "size": 737280
+        },
+        {
+            "filename": "Illusion City (1991)(Micro Cabin)(Disk 01 of 13)(Game Disk 1).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Illusion City (1991)(Micro Cabin)(Disk 01 of 13)(Game Disk 1).dsk",
+            "sha1": "9e9946536f3cb6d90e2433ff19376cb9f9818290",
+            "size": 737280
+        },
+        {
+            "filename": "Illusion City (1991)(Micro Cabin)(Disk 02 of 13)(Game Disk 2).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Illusion City (1991)(Micro Cabin)(Disk 02 of 13)(Game Disk 2).dsk",
+            "sha1": "62ad6222dc4e0f47c6a4609ebf618fc2233288cc",
+            "size": 737280
+        },
+        {
+            "filename": "Illusion City (1991)(Micro Cabin)(JP)(Disk 01 of 13)(Game Disk 1).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Illusion City (1991)(Micro Cabin)(JP)(Disk 01 of 13)(Game Disk 1).dsk",
+            "sha1": "94258658039f76d22bc79ec02b7b78e9b4a7ac13",
+            "size": 737280
+        },
+        {
+            "filename": "Illusion City (1991)(Micro Cabin)(JP)(Disk 02 of 13)(Game Disk 2).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Illusion City (1991)(Micro Cabin)(JP)(Disk 02 of 13)(Game Disk 2).dsk",
+            "sha1": "4535b5a13a86537e363566bd2a864cbf17bcd2e7",
+            "size": 737280
+        },
+        {
+            "filename": "Illusion City (1991)(Micro Cabin)(JP)(Disk 03 of 13)(Game Disk 3).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Illusion City (1991)(Micro Cabin)(JP)(Disk 03 of 13)(Game Disk 3).dsk",
+            "sha1": "ac94c9f5e735c935a5ed4ff47c9689e5e07ac266",
+            "size": 737280
+        },
+        {
+            "filename": "Illusion City (1991)(Micro Cabin)(JP)(Disk 04 of 13)(Game Disk 4).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Illusion City (1991)(Micro Cabin)(JP)(Disk 04 of 13)(Game Disk 4).dsk",
+            "sha1": "da08fd8c79ebb28a01232734bf607f576f7987cf",
+            "size": 737280
+        },
+        {
+            "filename": "Illusion City (1991)(Micro Cabin)(JP)(Disk 05 of 13)(Game Disk 5).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Illusion City (1991)(Micro Cabin)(JP)(Disk 05 of 13)(Game Disk 5).dsk",
+            "sha1": "5472f519f06212562d72f5be229b74a4599f13c2",
+            "size": 737280
+        },
+        {
+            "filename": "Illusion City (1991)(Micro Cabin)(JP)(Disk 06 of 13)(Game Disk 6).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Illusion City (1991)(Micro Cabin)(JP)(Disk 06 of 13)(Game Disk 6).dsk",
+            "sha1": "1141f0b05250ffde6cbd02a29041c4c520008267",
+            "size": 737280
+        },
+        {
+            "filename": "Illusion City (1991)(Micro Cabin)(JP)(Disk 07 of 13)(Game Disk 7).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Illusion City (1991)(Micro Cabin)(JP)(Disk 07 of 13)(Game Disk 7).dsk",
+            "sha1": "fdad8341a81d1310f00e07057b61ea4ef31cdf06",
+            "size": 737280
+        },
+        {
+            "filename": "Illusion City (1991)(Micro Cabin)(JP)(Disk 08 of 13)(Game Disk 8).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Illusion City (1991)(Micro Cabin)(JP)(Disk 08 of 13)(Game Disk 8).dsk",
+            "sha1": "efa7b70351f0302e112cb9b0ef49dc033c967e3d",
+            "size": 737280
+        },
+        {
+            "filename": "Illusion City (1991)(Micro Cabin)(JP)(Disk 10 of 13)(Data Disk 1).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Illusion City (1991)(Micro Cabin)(JP)(Disk 10 of 13)(Data Disk 1).dsk",
+            "sha1": "ae943fd7643183366096341403ac387e60897719",
+            "size": 737280
+        },
+        {
+            "filename": "Illusion City (1991)(Micro Cabin)(JP)(Disk 11 of 13)(Data Disk 2).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Illusion City (1991)(Micro Cabin)(JP)(Disk 11 of 13)(Data Disk 2).dsk",
+            "sha1": "68754c6308fcb1988e72677cef277325326bf22f",
+            "size": 737280
+        },
+        {
+            "filename": "Illusion City (1991)(Micro Cabin)(JP)(Disk 12 of 13)(Data Disk 3).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Illusion City (1991)(Micro Cabin)(JP)(Disk 12 of 13)(Data Disk 3).dsk",
+            "sha1": "50b47657f4b911cf244d3992960e7cd8d76c7725",
+            "size": 737280
+        },
+        {
+            "filename": "Illusion City (1991)(Micro Cabin)(JP)(Disk 13 of 13)(Data Disk 4).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Illusion City (1991)(Micro Cabin)(JP)(Disk 13 of 13)(Data Disk 4).dsk",
+            "sha1": "99446c15d42241594bb2dab71a5db188d3f9a213",
+            "size": 737280
+        },
+        {
+            "filename": "Moonlight Saga (1996)(Maple Yard)(JP).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Moonlight Saga (1996)(Maple Yard)(JP).dsk",
+            "sha1": "c6e339c992562800ded94b29cd910cfe7d656cea",
+            "size": 737280
+        },
+        {
+            "filename": "Multi-Plex (1993)(MIWA)(JP).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Multi-Plex (1993)(MIWA)(JP).dsk",
+            "sha1": "a6f75f120c89c22dce27a63f73209d96ccacb92a",
+            "size": 737280
+        },
+        {
+            "filename": "PaRaDream (1992)(RAC House)(JP).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/PaRaDream (1992)(RAC House)(JP).dsk",
+            "sha1": "1dd663e5b38ce0206f09a8c6a226f9e6562e341a",
+            "size": 737280
+        },
+        {
+            "filename": "Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 1 of 8).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 1 of 8).dsk",
+            "sha1": "13ef524c86124a628e6169edcf81e2ede3140bc0",
+            "size": 737280
+        },
+        {
+            "filename": "Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 2 of 8).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 2 of 8).dsk",
+            "sha1": "a9e6bfd80298626086e3a81d054b37142db08b52",
+            "size": 737280
+        },
+        {
+            "filename": "Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 3 of 8).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 3 of 8).dsk",
+            "sha1": "7dcfedaafde8cf0b286d80b0f2a930dba15a362c",
+            "size": 737280
+        },
+        {
+            "filename": "Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 4 of 8).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 4 of 8).dsk",
+            "sha1": "c0750209ce9b36dd76091ed353d762a9f5380adb",
+            "size": 737280
+        },
+        {
+            "filename": "Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 5 of 8).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 5 of 8).dsk",
+            "sha1": "7f92d37b3cb31689a3fa54c374c84366e302afb3",
+            "size": 737280
+        },
+        {
+            "filename": "Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 6 of 8).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 6 of 8).dsk",
+            "sha1": "27dfae858e543a443521dc3b9a8f70028e0cd033",
+            "size": 737280
+        },
+        {
+            "filename": "Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 7 of 8).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 7 of 8).dsk",
+            "sha1": "0f64b6b2a1eefb0597793ccb82a247945a19b5ca",
+            "size": 737280
+        },
+        {
+            "filename": "Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 8 of 8).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Ranma Nibunnoichi 1-2 (1992)(Bothtec)(JP)(Disk 8 of 8).dsk",
+            "sha1": "6ea5f0a2b89f223220ee8003b83a2f537fd63ee3",
+            "size": 737280
+        },
+        {
+            "filename": "S.T.G. (1996)(Y. Tomohara).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/S.T.G. (1996)(Y. Tomohara).dsk",
+            "sha1": "1bfbac72446c059d4838a0b117c5cd5db0a85e21",
+            "size": 368640
+        },
+        {
+            "filename": "S.T.G. Special - Do Don Taku (1998)(Y. Tomohara).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/S.T.G. Special - Do Don Taku (1998)(Y. Tomohara).dsk",
+            "sha1": "a885df863a6f04441881ac907510ab80d139c357",
+            "size": 737280
+        },
+        {
+            "filename": "Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 1 of 3)(Game Disk 1).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 1 of 3)(Game Disk 1).dsk",
+            "sha1": "7a329629bc7667761751f092e8d2dc350f9eba76",
+            "size": 737280
+        },
+        {
+            "filename": "Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 2 of 3)(Game Disk 2).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 2 of 3)(Game Disk 2).dsk",
+            "sha1": "16bece552fd1af10c2cf467d1c89e7d2869ded35",
+            "size": 737280
+        },
+        {
+            "filename": "Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 3 of 3)(Game Disk 3).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Seed of Dragon (1990)(Riverhill Soft)(JP)(Disk 3 of 3)(Game Disk 3).dsk",
+            "sha1": "f376d8875548a7910317ab7a34cd2be823101385",
+            "size": 737280
+        },
+        {
+            "filename": "Shoot That Flying Windows! (1997)(Nyyrikki)[mouse].dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Shoot That Flying Windows! (1997)(Nyyrikki)[mouse].dsk",
+            "sha1": "d69c803efb9558314489ab04a25ec84a2901f49f",
+            "size": 737280
+        },
+        {
+            "filename": "Sweet (1994)(Kazuyuki Suzuki)(JP)[old T800].dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Sweet (1994)(Kazuyuki Suzuki)(JP)[old T800].dsk",
+            "sha1": "8d46a336944128a9f925498647a3d163f7796acd",
+            "size": 737280
+        },
+        {
+            "filename": "Zone Terra (1994)(Quadrivium)(NL).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Games (TOSEC-v2012-04-15_CM)/Zone Terra (1994)(Quadrivium)(NL).dsk",
+            "sha1": "cd631425a0fb7e7cf043c8f69281fd8255ce2c4f",
+            "size": 737280
+        },
+        {
+            "filename": "Telebasic - Issue 01 (1993)(Traposoft)(ES).dsk",
+            "full_path": "/mnt/share/roms/MSX/tosec/MSX TurboR [TOSEC]/MSX TurboR - Magazines (TOSEC-v2012-04-15_CM)/Telebasic - Issue 01 (1993)(Traposoft)(ES).dsk",
+            "sha1": "d0691a07805dea89eb3be54bbcf37303df49e192",
+            "size": 737280
+        }
+    ]
+}
