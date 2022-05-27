@@ -80,6 +80,25 @@ def getTrue(val):
         return(True)
     raise ValueError("Value must be 1 or 0")
 
+def getVsType(t):
+    type_list=["RP2C03B","RP2C03G","RP2C04-0001","RP2C04-0002","RP2C04-0003","RP2C04-0004",\
+"RC2C03B","RC2C03C","RC2C05-01 ($2002 AND $?? =$1B)","RC2C05-02 ($2002 AND $3F =$3D)","RC2C05-03 ($2002 AND $1F =$1C)","RC2C05-04 ($2002 AND $1F =$1B)","RC2C05-05 ($2002 AND $1F =unknown)","reserved","reserved","reserved"]
+
+def getVsPPU(p):
+
+def getExtConsole(rh):
+    if rh["console_type"] == 0:
+        return(False)
+    if rh["console_type"] == 1 or rh["ext_console_type"] == 1:
+        vs_dict={"Vs. System":{}}
+        vs_dict["Vs. System"]={
+            "Type": getVsType(rh["vssystem_type"]),
+            "PPU": getVsPPU(rh["vssystem_ppu"])
+        }
+        vs_dict["PPU"]=
+    
+
+
 def parseHeader(rh):
     header_dict={}
     header_dict["Header Format"] = getHeaderFormat(rh["header_format"])
@@ -98,7 +117,7 @@ def parseHeader(rh):
         header_dict["TV System Timing"]=get20Timing(rh["timing"])
         header_dict["Number of Misc Roms"]=rh["miscroms"]
         header_dict["Expansion Device"]=getExpansion(rh["expansion_device"])
-
+        header_dict["Extended Console"]=getExtConsole(rh)
     return(header_dict)
 
 def main(argv):
