@@ -4,7 +4,7 @@ import sys
 from hashlib import sha1, sha256, md5
 from binascii import crc32
 from ragu_file import readBytesfromFile
-from ragu_ops import clearBits, countBits
+from ragu_ops import bytesum, clearBits, countBits
 
 class WrongFormatError(Exception):
     def __init__(self,message="Not a valid NES ROM header,does not begin with \
@@ -34,64 +34,174 @@ class UnhandledError(Exception):
         self.message="Unhandled error: " + unk_error
         super().__init__(self.message)
 
+
+
 class header:
-    def __init__(self,input_bytes):
-        # first 16 bytes of rom data should be the the header
+    def __init__(self,input_bytes=False):
         self.raw=bindata()
+        self.flags={}
+        if input_bytes != False:
+            self.loadBytes(input_bytes)
+
+
+    def loadBytes(self, input_bytes):
+        # first 16 bytes of rom data should be the the header
         self.raw.extract(input_bytes,16,"Header")
         
         # confirm by checking that NES<EOF> at start
         self.__validateNES__(self.raw.data)
-        
-
-
         # populate flags dict
-        self.flags={}
         self.flags=self.__getFlags__(self.raw.data)
+
+    def convertFormat(self):
+        try:
+            if self.flags['header_format']:
+                pass
+        except:
+            raise ValueError("Header is empty")
+
+        if self.flags['header_format'] == 1:
+            # convert to NES 2.0
+            new_values=header()
+            new_values.flags=self.__getMapperDefaults20__(self.flags)
+
+    def __getMapperDefaults20__(self,flags):
+        output_flags={}
+        output_flags['header_format']=2
+        output_flags['expansion_device']=1
+        if flags['battery'] == 1:
+            output_flags['nvram_size']=8192           
+        if flags['chrrom_size'] == 0:
+            output_flags['chrram_size']=8192
+        if flags['mapper'] == 1:
+            if flags['battery'] == 1:
+                output_flags['nvram_size']=32768
+            else:
+                output_flags['prgram_size']=32768
+        if flags['mapper'] == 4:
+            if flags['battery'] == 0:
+                output_flags['prgram_size']=8192
+        if flags['mapper'] == 5:
+            if flags['battery'] == 1:
+                output_flags["nvram_size"]=131072
+            else:
+                output_flags['prgram_size']=131072
+        if flags['mapper'] == 9:
+            if flags['battery'] == 0 and flags['pc10'] == 1:
+                output_flags['prgram_size']=8192
+        if flags['mapper'] == 10:
+            if flags['battery'] == 0:
+                output_flags['prgram_size']=8192            
+        if flags['mapper'] == 19:
+            # this one has a bunch of things that can't really be guessed
+            #
+            # no battery, no WRAM: battery bit clear, PRG-RAM/PRG-NVRAM both
+            # set to zero.
+            #
+            # battery but no WRAM: battery bit set, PRG-RAM/PRG-NVRAM both set 
+            # to zero. The game writes its save data into the 128 byte internal
+            # RAM.
+            #
+            # battery and WRAM: battery bit set, PRG-RAM set to zero and 
+            # PRG-NVRAM set to 8192.
+            # 
+            # expansion sound vol set with submapper 3,4,5
+            #
+            # converted roms probably need some manual changes
+            if flags['battery'] == 1:
+                output_flags['prgnvram_size']=8192
+
+        if flags['mapper'] == 23:
+            # may be either VRC2 or VRC4. 
+            # submapper 1: VRC4f
+            # submapper 2: VRC4e
+            # submapper 3: VRC2b
+            # will probably be compatible without submapper?
+            if flags['battery'] == 0:
+                output_flags['prgram_size']=8192
+        if flags['mapper'] == 24:
+            if flags['battery'] == 0:
+                output_flags['prgram_size']=8192
+        if flags['mapper'] == 25:
+            # see mapper 23
+            # submapper 1: VRC4b
+            # submapper 2: VRC4d
+            # submapper 3: VRC2c
+            if flags['battery'] == 0:
+                output_flags['prgram_size']=8192
+        if flags['mapper'] == 26:
+            if flags['battery'] == 0:
+                output_flags['prgram_size']=8192
+        if flags['mapper'] == 34:
+            # submapper 1: NINA-001
+            # submapper 2: BNROM
+            output_flags['prgram_size'] = 8192
+        if flags['mapper'] == 48:
+            # MMC3-like
+            if flags['battery'] == 0:
+                output_flags['prgram_size']=8192
+        if flags['mapper'] == 69:
+            if flags['battery'] == 1:
+                output_flags['prgnvram_size']=524288
+            else:
+                output_flags['prgram_size']=524288
+        if flags['mapper'] == 85:
+            if flags['battery'] == 0:
+                output_flags['prgram_size']=8192
+        if flags['mapper'] == 163:
+            output_flags['prgnvram_size']=8192
+
+
+
+
+            
+
 
 
     def __getFlags__(self, data):
-        flag_dict={}
-
         # initialize properties
-        flag_dict['header_format']            = False
-        flag_dict['mirroring']                = False
-        flag_dict['battery']                  = False
-        flag_dict['trainer']                  = False
-        flag_dict['fourscreen']               = False
-        flag_dict['busconflicts_unofficial']  = False
-        flag_dict['console_type']             = False
-        flag_dict['expansion_device']         = False
-        flag_dict['vssystem']                 = False
-        flag_dict['vssystem_ppu']             = False
-        flag_dict['vssystem_type']            = False
-        flag_dict['ext_console_type']         = False
-        flag_dict['pc10']                     = False
-        flag_dict['tvsystem']                 = False
-        flag_dict['tvsystem_unofficial']      = False
-        flag_dict['timing']                   = False
-        flag_dict['prgrom_lsb']               = False
-        flag_dict['prgrom_msb']               = False
-        flag_dict['prgrom_size']              = False
-        flag_dict['prgram_unofficial']        = False
-        flag_dict['prgram_shift']             = False
-        flag_dict['prgram_size']              = False
-        flag_dict['nvram_shift']              = False
-        flag_dict['nvram_size']               = False
-        flag_dict['chrrom_lsb']               = False
-        flag_dict['chrrom_msb']               = False
-        flag_dict['chrrom_size']              = False
-        flag_dict['chrram']                   = False
-        flag_dict['chrram_shift']             = False
-        flag_dict['chrram_size']              = False
-        flag_dict['chrnvram_shift']           = False
-        flag_dict['chrnvram_size']            = False
-        flag_dict['mapper_ln']                = False
-        flag_dict['mapper_hn']                = False
-        flag_dict['mapper_msb']               = False
-        flag_dict['mapper']                   = False
-        flag_dict['submapper']                = False
-        flag_dict['miscroms']                 = False
+        flag_dict = {
+        'header_format'            : False,
+        'mirroring'                : False,
+        'battery'                  : False,
+        'trainer'                  : False,
+        'fourscreen'               : False,
+        'busconflicts_unofficial'  : False,
+        'console_type'             : False,
+        'expansion_device'         : False,
+        'vssystem'                 : False,
+        'vssystem_ppu'             : False,
+        'vssystem_type'            : False,
+        'ext_console_type'         : False,
+        'pc10'                     : False,
+        'tvsystem'                 : False,
+        'tvsystem_unofficial'      : False,
+        'timing'                   : False,
+        'prgrom_lsb'               : False,
+        'prgrom_msb'               : False,
+        'prgrom_size'              : False,
+        'prgram_unofficial'        : False,
+        'prgram_shift'             : False,
+        'prgram_size'              : False,
+        'nvram_shift'              : False,
+        'nvram_size'               : False,
+        'chrrom_lsb'               : False,
+        'chrrom_msb'               : False,
+        'chrrom_size'              : False,
+        'chrram'                   : False,
+        'chrram_shift'             : False,
+        'chrram_size'              : False,
+        'chrnvram_shift'           : False,
+        'chrnvram_size'            : False,
+        'mapper_ln'                : False,
+        'mapper_hn'                : False,
+        'mapper_msb'               : False,
+        'mapper'                   : False,
+        'submapper'                : False,
+        'miscroms'                 : False
+        }
+
+
 
         # get header format
         flag_dict['header_format']=1
@@ -194,9 +304,9 @@ class header:
             # tv system, 0 ntsc 2 pal 1/3 dual
             flag_dict['tvsystem_unofficial']=data[10] & 3
             # prg ram, 0 present 1 not present
-            flag_dict['prgram_unofficial']=data[10] & 16
+            flag_dict['prgram_unofficial']=(data[10] & 16) >> 4
             # bus conflicts , 0 no conflicts 1 conflicts
-            flag_dict['busconflicts_unofficial']=data[10] & 32
+            flag_dict['busconflicts_unofficial']=(data[10] & 32) >> 5
 
         return(flag_dict)
 
@@ -260,7 +370,7 @@ class bindata:
         return(romdata)
     
     def hash(self,func_name="sha1"):
-        if func_name != "crc32":
+        if func_name != "crc32" and func_name != "bytesum":
             if func_name == "sha1":
                 func=sha1(self.data)
             elif func_name == "sha256":
@@ -268,8 +378,11 @@ class bindata:
             elif func_name == "md5":
                 func=md5(self.data)
             digest=func.hexdigest()
-        else:
+        elif func_name == "crc32":
             digest=crc32(self.data)
+        elif func_name == "bytesum":
+            digest=bytesum(self.data)
+
         return(digest)
 
     # take a value and insert it in a byte

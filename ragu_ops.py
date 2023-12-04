@@ -2,6 +2,16 @@
 
 import sys, csv, json, re, os
 
+
+def bytesum(input_bytes):
+    all_bytes=bytearray(input_bytes)
+    sum=0
+    for b in all_bytes:
+        sum+=b
+    return(sum)
+
+
+
 def clearBits(input_byte,mask):
     # byte errors
     if isinstance(input_byte,bytes):
