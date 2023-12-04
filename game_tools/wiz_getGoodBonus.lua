@@ -1,7 +1,14 @@
 -- Author: Ragu
 -- Game: Wizardry I-II-III - Story of Llylgamyn (Japan) (En,Ja) (NP)
+-- Emulator: Bizhawk
+-- Core Used: BSNESv115+
 -- System: Super Famicom/Super NES
--- Description: Retry rolls until you get a good bonus during character creation
+-- Description: Retry rolls until you get a good bonus during character
+-- creation. 
+-- I wrote this for the original japanese version but i doubt the addresses 
+-- have changed too much in the fan-translated version so it should work?
+-- Usage: Load ROM in Bizhawk, go to Tools > Lua Console, then Script > Open 
+-- Script, select the script.
 
 -- change the target_points variable to the minimum you'd like. i'm not totally
 -- sure what the maximum is, but 29 is as high as i've gotten and you'll be
