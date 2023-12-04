@@ -16,62 +16,77 @@
 local target_points = 20
 local print_debug = false
 
-function debug_text(menu_status,town_status,bonus_points)
+function debug_text()
 	if print_debug == true then
 		local vpos = 50
-		if menu_status == 13 then
-			gui.text(50,vpos,"Create Menu Status: In Menu")
-		else
-			gui.text(50,vpos,"Create Menu Status: " .. tostring(menu_status))
-		end
+		gui.text(50,vpos,"Create Menu Status: " .. tostring(getMenuStatus()))
 		vpos = vpos + 20
-		if town_status == 1 then
-			gui.text(50,vpos,"Town Status: Out of Town")
-		elseif town_status == 2 then
-			gui.text(50,vpos,"Town Status: In Town")
-		else
-			gui.text(50,vpos,"Town Status:" .. tostring(town_status))
-		end
+		gui.text(50,vpos,"Town Status: " .. tostring(getTownStatus()))
 		vpos = vpos + 20
-		gui.text(50,vpos,'bonus points: ' .. tostring(bonus_points))
+		gui.text(50,vpos,'Bonus Points: ' .. tostring(getBonusPoints()))
+		vpos = vpos + 20
+		gui.text(50,vpos,"Hit target values: " .. tostring(hit_target))
 	end
 end
 
-while true do
-	-- read whether you're in town, in the right menu, and how many bonus
-	-- points you have. i think that should be enough to make sure that this 
-	-- isn't running anywhere else?
+-- return current number of bonus points
+function getBonusPoints()
+	return(memory.read_u8(0x7E101C))
+end
+
+-- return location value
+function getTownStatus()
 	local town_status = memory.read_u8(0x0001FF)
+	if town_status == 1 then
+		return("Out of Town")
+	elseif town_status == 2 then
+		return("In Town")
+	else
+		return(tostring(town_status))
+	end
+end
+
+-- return whether you're in character creation menu
+function getMenuStatus()
 	local menu_status = memory.read_u8(0x000246)
-	local bonus_points = memory.read_u8(0x7E101C)
-	
-	debug_text(menu_status,town_status,bonus_points)
+	if menu_status == 13 then
+		return(true)
+	else
+		return(false)
+	end
+end
+
+
+while true do
+	hit_target = false	
+	debug_text()
 	
 	-- if you're in the bonus point allocation menu and outside of town, run
-	-- the logic
-	if menu_status == 13 and town_status == 1 then
-		debug_text(menu_status,town_status,bonus_points)
+	-- the logic. this should be enough to keep it from running elsewhere?
+	while getMenuStatus() and getTownStatus() == "Out of Town" do
+		debug_text()
 
-		-- if bonus points are less than the target points
-		while bonus_points < target_points do
+		-- if bonus points are less than the target points and you haven't hit
+		-- the target value yet, keep rerolling until you hit it
+		while getBonusPoints() < target_points and hit_target == false do
 			input = {}
 			input.Y=true
-
-			-- read current bonus points
-			bonus_points = memory.read_u8(0x7E101C)
-			
 			-- hold the y button for 6 frames (reroll)
 			for i=1, 6, 1 do
-				debug_text(menu_status,bonus_points)
+				debug_text()
 				joypad.set(input,1)
 				emu.frameadvance()
 			end
-			debug_text(menu_status,bonus_points)
+			debug_text()
 			-- release y button
 			input.Y=false
 			joypad.set(input,1)
 			emu.frameadvance()
 		end
+		-- once you've broken out of the reroll loop (because you've hit a
+		-- threshold value, set hit_target to true
+		hit_target = true
+		emu.frameadvance()
 	end
 	emu.frameadvance()
 end
