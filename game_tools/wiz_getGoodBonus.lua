@@ -38,7 +38,7 @@ end
 
 -- return current number of bonus points
 function getBonusPoints()
-	return(memory.read_u8(0x7E101C))
+	return(memory.read_u8(0x00101C))
 end
 
 -- return location value
