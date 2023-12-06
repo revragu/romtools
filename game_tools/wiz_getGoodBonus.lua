@@ -79,7 +79,7 @@ while true do
 			input = {}
 			input.Y=true
 			-- hold the y button for 6 frames (reroll)
-			for i=1, 6, 1 do
+			for i=1, 7, 1 do
 				debug_text()
 				joypad.set(input,1)
 				emu.frameadvance()
