@@ -10,9 +10,16 @@
 -- Usage: Load ROM in Bizhawk, go to Tools > Lua Console, then Script > Open 
 -- Script, select the script.
 
--- change the target_points variable to the minimum you'd like. i'm not totally
--- sure what the maximum is, but 29 is as high as i've gotten and you'll be
--- doing a LOT of rerolls for that
+-- target_points:
+-- change the target_points variable to the minimum you'd like. max possible is
+-- 29 (determined after 188000 rolls), and only 25 and 29 are possible in the
+-- 20s. there's a 0.05% chance to roll a 29 so... good luck.
+-- if you want "high but relatively achievable naturally" value, try 19 -- you
+-- can roll between 15 to 19 in the teens, and all of them are equally
+-- probable, at around 2%
+-- meanwhile 5 to 9 each have just under a 20% chance to be rolled. no other
+-- values are even possible
+
 local target_points = 20
 local print_debug = false
 
@@ -83,7 +90,7 @@ while true do
 			joypad.set(input,1)
 			emu.frameadvance()
 		end
-		-- once you've broken out of the reroll loop (because you've hit a
+		-- once you've broken out of the reroll loop because you've hit a
 		-- threshold value, set hit_target to true
 		hit_target = true
 		emu.frameadvance()
